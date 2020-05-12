@@ -1,17 +1,45 @@
-#map{
-	border:1px solid black;
-	box-shadow:0 0 40px 10px black;
+#options {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+}
+
+#score {
+	color: skyblue;
+}
+
+#pause, #continue {
+	background: skyblue;
+	padding: 12px 36px;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 24px;
+	cursor: pointer;
+}
+
+#map {
+	border: 1px solid black;
+	box-shadow: 0 0 40px 10px black;
 	position: absolute;
-	left:0;top:0;right:0;bottom:0;
-	margin:auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 	/*font-size:0;*/
-	line-height:0;
+	line-height: 0;
 }
-#map span{
-	display:inline-block;
+#map span {
+	display: inline-block;
 	border:1px solid black;
-	box-sizing:border-box;
-	/*vertical-align:middle;*/
+	box-sizing: border-box;
+	/*vertical-align: middle;*/
 }
-span.snake{background-color:skyblue;}
-span.food{background-color:orange;}
+span.snake {
+	background-color: skyblue;
+}
+span.food {
+	background-color: orange;
+}

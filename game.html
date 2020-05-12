@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>贪食蛇</title>
-	<link rel="stylesheet" href="game.css">
-	<script src="util.js"></script>
-	<script src="game.js"></script>
-</head>
-<body>
-	<div id="map"></div>
-</body>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>贪食蛇</title>
+		<link rel="stylesheet" href="game.css">
+		<script src="util.js"></script>
+		<script src="game.js"></script>
+	</head>
+
+	<body>
+		<div id="options">
+			<span>
+				<label>分数：</label><span id="score">0</span> 分
+			</span>
+			<span id="pause">暂停</span>
+			<span id="continue" style="display: none;">继续</span>
+		</div>
+		<div id="map"></div>
+	</body>
+
 </html>
